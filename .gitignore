@@ -1,0 +1,10 @@
+/zpro
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+data/
+!data/.gitkeep
+outputs/
+.vscode/
