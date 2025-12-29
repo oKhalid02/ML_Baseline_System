@@ -1,0 +1,51 @@
+{
+  "run_id": "2025-12-29T16-41-04Z__classification__seed42",
+  "timestamp_utc": "2025-12-29T16:41:04.554271+00:00",
+  "task": "classification",
+  "features_path": "/Users/khaledalamro/Desktop/SDAIA_bootcamp/bootcamp_week3/week3-ml-baseline-system/data/processed/features.csv",
+  "features_sha256": "14cbce822b917a787133a2af7bd04699156f503177ea0494bbd7ac079f6a5b45",
+  "cfg": {
+    "features_path": "/Users/khaledalamro/Desktop/SDAIA_bootcamp/bootcamp_week3/week3-ml-baseline-system/data/processed/features.csv",
+    "target": "is_high_value",
+    "task": "classification",
+    "split_strategy": "random",
+    "id_cols": [
+      "user_id"
+    ],
+    "time_col": null,
+    "group_col": null,
+    "test_size": 0.2,
+    "seed": 42,
+    "threshold_strategy": "fixed",
+    "threshold_value": 0.5
+  },
+  "baseline_holdout": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.2,
+    "accuracy": 0.8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "threshold": 0.5
+  },
+  "holdout_metrics": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "threshold": 0.5,
+    "positive_rate_holdout": 0.2,
+    "roc_auc_ci": {
+      "estimate": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0
+    }
+  },
+  "artifacts": {
+    "model": "model/model.joblib",
+    "schema": "schema/input_schema.json",
+    "holdout_predictions": "tables/holdout_predictions.csv"
+  }
+}

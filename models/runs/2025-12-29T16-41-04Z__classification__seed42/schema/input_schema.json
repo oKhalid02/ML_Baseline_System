@@ -1,0 +1,20 @@
+{
+  "required_feature_columns": [
+    "country",
+    "n_orders",
+    "avg_amount",
+    "total_amount"
+  ],
+  "feature_dtypes": {
+    "country": "object",
+    "n_orders": "int64",
+    "avg_amount": "float64",
+    "total_amount": "float64"
+  },
+  "optional_id_columns": [
+    "user_id"
+  ],
+  "forbidden_columns": [
+    "is_high_value"
+  ]
+}

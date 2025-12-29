@@ -8,3 +8,5 @@ data/
 !data/.gitkeep
 outputs/
 .vscode/
+.ruff_cache
+*.egg-info/
