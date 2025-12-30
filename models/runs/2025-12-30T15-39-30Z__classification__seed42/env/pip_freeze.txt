@@ -1,0 +1,1 @@
+# pip freeze failed: CalledProcessError(1, ['/Users/khaledalamro/Desktop/SDAIA_bootcamp/bootcamp_week3/week3-ml-baseline-system/.venv/bin/python3', '-m', 'pip', 'freeze'])
