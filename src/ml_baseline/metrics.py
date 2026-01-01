@@ -15,7 +15,9 @@ from sklearn.metrics import (
 )
 
 
-def classification_metrics(y_true: np.ndarray, y_score: np.ndarray, threshold: float) -> dict[str, float | None]:
+def classification_metrics(
+    y_true: np.ndarray, y_score: np.ndarray, threshold: float
+) -> dict[str, float | None]:
     """Core binary-classification metrics.
     Note: ROC AUC is undefined if only one class is present in y_true.
     """
